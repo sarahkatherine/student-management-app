@@ -16,7 +16,7 @@ IntelliJ
 
 ## Frontend
 React,
-NodeJS
+NodeJS,
 JavaScript,
 CSS,
 HTML,
