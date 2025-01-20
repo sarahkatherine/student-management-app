@@ -14,6 +14,7 @@ Java,
 SQLite,
 CRUD API,
 REST API,
+POSTMAN,
 IntelliJ
 
 ## Frontend
