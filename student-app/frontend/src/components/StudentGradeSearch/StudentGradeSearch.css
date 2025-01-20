@@ -1,0 +1,46 @@
+/* Styles for the container element of the Student Grade Search form */
+.student-grade-search {
+    margin: 20px auto; /* Centers the container horizontally and adds vertical spacing */
+    padding: 20px; /* Adds internal padding for better spacing */
+    background: white; /* Sets the background color of the container to white */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a lifted appearance */
+    max-width: 600px; /* Limits the maximum width of the container */
+    text-align: left; /* Aligns text inside the container to the left */
+}
+
+/* Styles for the heading in the Student Grade Search container */
+.student-grade-search h2 {
+    text-align: center; /* Centers the heading text */
+    color: #007bff; /* Sets the text color to a blue shade */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles for input fields in the form */
+.student-grade-search input {
+    margin: 10px 0; /* Adds vertical spacing around the input fields */
+    padding: 10px; /* Adds internal padding for better readability */
+    width: calc(100% - 20px); /* Ensures the input fields are responsive and do not overflow */
+    border: 1px solid #dddddd; /* Adds a light gray border around the input fields */
+    border-radius: 4px; /* Rounds the corners of the input fields */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's width */
+}
+
+/* Styles for the submit button */
+.student-grade-search button {
+    margin-top: 15px; /* Adds space above the button */
+    padding: 10px 20px; /* Adds internal padding for a consistent button size */
+    background-color: #007bff; /* Sets the button's background color to a blue shade */
+    color: white; /* Makes the button text white for contrast */
+    border: none; /* Removes the default border around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 16px; /* Sets the font size for better readability */
+    display: block; /* Ensures the button is displayed as a block element */
+    width: 100%; /* Makes the button stretch to the full width of the container */
+}
+
+/* Hover effect for the submit button */
+.student-grade-search button:hover {
+    background-color: #0056b3; /* Darkens the button's background color when hovered */
+}

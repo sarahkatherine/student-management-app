@@ -1,0 +1,54 @@
+/* Styles for the container element of the Add Student form */
+.add-student {
+    padding: 20px; /* Adds space inside the container for better spacing */
+    margin: 20px auto; /* Centers the container and adds vertical spacing */
+    background: white; /* Sets the background color of the container to white */
+    border-radius: 8px; /* Rounds the corners of the container for a smooth appearance */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to give a lifted effect */
+    max-width: 600px; /* Limits the maximum width of the container */
+    text-align: left; /* Aligns text content to the left inside the container */
+}
+
+/* Styles for the heading in the Add Student container */
+.add-student h2 {
+    text-align: center; /* Centers the heading text */
+    margin-bottom: 20px; /* Adds spacing below the heading */
+    color: #007bff; /* Sets the text color to a blue shade */
+}
+
+/* Styles for the form inside the Add Student container */
+.add-student form {
+    display: flex; /* Enables the use of Flexbox for layout management */
+    flex-direction: column; /* Stacks form elements vertically */
+}
+
+/* Styles for labels in the form */
+.add-student label {
+    margin-bottom: 5px; /* Adds space below each label */
+    font-weight: bold; /* Makes the label text bold for emphasis */
+    color: #555555; /* Sets a neutral gray color for the label text */
+}
+
+/* Styles for input fields in the form */
+.add-student input {
+    width: 100%; /* Makes the input fields stretch to the full width of the container */
+    padding: 10px; /* Adds space inside the input fields for better readability */
+    border: 1px solid #dddddd; /* Adds a light gray border around the inputs */
+    border-radius: 4px; /* Rounds the corners of the input fields */
+    margin-bottom: 15px; /* Adds space below each input field */
+}
+
+/* Styles for the submit button in the form */
+.add-student button {
+    padding: 10px 15px; /* Adds padding inside the button for a consistent size */
+    background-color: #007bff; /* Sets the button's background color to a blue shade */
+    color: white; /* Makes the button text white for contrast */
+    border: none; /* Removes any default border around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Hover effect for the submit button */
+.add-student button:hover {
+    background-color: #0056b3; /* Darkens the button's background color when hovered */
+}

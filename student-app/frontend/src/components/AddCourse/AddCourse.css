@@ -1,0 +1,54 @@
+/* Styles for the container element of the Add Course form */
+.add-course {
+    padding: 20px; /* Adds space inside the container */
+    margin: 20px auto; /* Centers the container and adds vertical space */
+    background: white; /* Sets the background color to white */
+    border-radius: 8px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    max-width: 600px; /* Limits the container's width for better readability */
+    text-align: left; /* Aligns the text content to the left */
+}
+
+/* Styles for the heading inside the Add Course container */
+.add-course h2 {
+    text-align: center; /* Centers the heading text */
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #007bff; /* Sets the text color to a blue shade */
+}
+
+/* Styles for the form inside the Add Course container */
+.add-course form {
+    display: flex; /* Uses flexbox for layout management */
+    flex-direction: column; /* Stacks form elements vertically */
+}
+
+/* Styles for form labels */
+.add-course label {
+    margin-bottom: 5px; /* Adds space below each label */
+    font-weight: bold; /* Makes the text bold for emphasis */
+    color: #555555; /* Sets a neutral gray color for the text */
+}
+
+/* Styles for input fields in the form */
+.add-course input {
+    width: 100%; /* Makes the input fields stretch to the full width of the container */
+    padding: 10px; /* Adds space inside the input fields */
+    border: 1px solid #dddddd; /* Sets a light gray border */
+    border-radius: 4px; /* Rounds the corners of the input fields */
+    margin-bottom: 15px; /* Adds space below each input field */
+}
+
+/* Styles for the submit button in the form */
+.add-course button {
+    padding: 10px 15px; /* Adds space inside the button */
+    background-color: #007bff; /* Sets the background color to a blue shade */
+    color: white; /* Makes the button text white */
+    border: none; /* Removes the border around the button */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+}
+
+/* Hover effect for the submit button */
+.add-course button:hover {
+    background-color: #0056b3; /* Darkens the button color when hovered */
+}

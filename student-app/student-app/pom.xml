@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<!-- Specifies the model version for the POM file -->
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent project configuration -->
+	<parent>
+		<groupId>org.springframework.boot</groupId> <!-- Points to the Spring Boot parent project -->
+		<artifactId>spring-boot-starter-parent</artifactId> <!-- Inherits default configurations for a Spring Boot project -->
+		<version>3.4.1</version> <!-- Specifies the Spring Boot version -->
+		<relativePath/> <!-- Ensures the parent is fetched from the repository -->
+	</parent>
+
+	<!-- Project-specific information -->
+	<groupId>com.example</groupId> <!-- The project's group ID (reverse domain naming convention) -->
+	<artifactId>student-app</artifactId> <!-- Unique identifier for this project -->
+	<version>0.0.1-SNAPSHOT</version> <!-- Indicates the version, with "SNAPSHOT" meaning it's under development -->
+	<name>student-app</name> <!-- The project's name -->
+	<description>A simple application to manage students and their grades.</description> <!-- Short description of the project -->
+
+	<!-- Placeholder for optional metadata -->
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+
+	<!-- Project-specific properties -->
+	<properties>
+		<java.version>23</java.version> <!-- Specifies the Java version (Ensure compatibility with JDK 23) -->
+	</properties>
+
+	<!-- Dependencies section -->
+	<dependencies>
+		<!-- Spring Boot Data JPA starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<!-- This starter provides all the required libraries for working with relational databases
+			     using Spring Data JPA. It includes Hibernate as the default JPA implementation and
+			     allows defining repositories and performing CRUD operations seamlessly. -->
+		</dependency>
+
+		<!-- Spring Boot Web starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<!-- This starter provides dependencies to build web applications, including REST APIs.
+			     It includes an embedded Tomcat server, Spring MVC, and other essential libraries
+			     for handling HTTP requests and JSON serialization. -->
+		</dependency>
+
+		<!-- Spring Boot Test starter -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope> <!-- Limits this dependency to the test scope -->
+			<!-- This starter provides testing libraries like JUnit 5, Mockito, and Spring Boot Test.
+			     It simplifies unit testing, integration testing, and mocking in the application. -->
+		</dependency>
+
+		<!-- SQLite JDBC driver -->
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+			<version>3.41.2.1</version>
+			<!-- This dependency provides a JDBC driver for connecting to SQLite databases.
+			     It is essential for enabling the application to interact with SQLite as its database. -->
+		</dependency>
+
+		<!-- Hibernate Community Dialects -->
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-community-dialects</artifactId>
+			<version>6.2.6.Final</version>
+			<!-- This dependency includes community-supported Hibernate dialects, such as the SQLite dialect.
+			     It ensures Hibernate can correctly generate SQL queries for SQLite. -->
+		</dependency>
+	</dependencies>
+
+	<!-- Additional repositories -->
+	<repositories>
+		<repository>
+			<id>jboss</id> <!-- Unique identifier for this repository -->
+			<name>JBoss Repository</name> <!-- Human-readable name for the repository -->
+			<url>https://repository.jboss.org/nexus/content/repositories/releases/</url> <!-- Repository URL -->
+			<!-- This repository is included because Hibernate Community Dialects are hosted on the JBoss repository. -->
+		</repository>
+	</repositories>
+
+	<!-- Build configuration -->
+	<build>
+		<plugins>
+			<!-- Spring Boot Maven plugin for running and packaging the application -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.4.1</version>
+				<!-- This plugin simplifies the process of running, packaging, and building Spring Boot applications.
+				     It ensures the application can be packaged into an executable JAR file with embedded dependencies. -->
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

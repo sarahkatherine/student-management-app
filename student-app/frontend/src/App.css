@@ -1,0 +1,212 @@
+/* General body styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333333;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+/* Main Header styles */
+h1 {
+  font-size: 2rem; /* Slightly smaller to balance with other headings */
+  margin-bottom: 30px;
+  color: #007bff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px; /* Add space from the top */
+}
+
+/* Section Header styles */
+h2 {
+  font-size: 2rem; /* Match "Welcome to the Student App" */
+  margin: 20px 0;
+  color: #007bff; /* Consistent blue color for headings */
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 15px;
+  border: 1px solid #dddddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f5ff;
+}
+
+/* Button styles */
+button {
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* Courses list styling */
+ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  line-height: 1.6;
+}
+
+/* Add Course and Add Student sections */
+.add-course,
+.add-student {
+  padding: 20px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+.add-course h2,
+.add-student h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.add-course form,
+.add-student form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-course label,
+.add-student label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555555;
+}
+
+.add-course input,
+.add-student input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.add-course button,
+.add-student button {
+  padding: 12px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-course button:hover,
+.add-student button:hover {
+  background-color: #0056b3;
+}
+
+/* Refresh button styling */
+.refresh-button {
+  margin: 20px auto;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 200px; /* Consistent width with other buttons */
+  max-width: 100%; /* Responsive width */
+}
+
+.refresh-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* General Button Styles */
+button {
+  margin: 20px auto;
+  padding: 12px 24px; /* Adjust padding for a good size */
+  background-color: #007bff; /* Consistent blue color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Standard font size */
+  width: 100%; /* Full width for uniformity */
+  max-width: 200px; /* Limit button width for consistency */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: all 0.2s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight scaling effect */
+}
+
+button:active {
+  transform: scale(1); /* Reset scale on click */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Subtle inset shadow */
+}
+
+/* Refresh Button Specific Style */
+.refresh-button {
+  margin-top: 20px;
+  padding: 12px 24px; /* Same as general buttons */
+  font-size: 16px; /* Ensure consistent font size */
+  max-width: 200px; /* Same maximum width as other buttons */
+}

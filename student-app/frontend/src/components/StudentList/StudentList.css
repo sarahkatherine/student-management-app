@@ -1,0 +1,97 @@
+/* Container styles for Student List */
+.student-list {
+    padding: 20px; /* Adds internal padding for better spacing */
+    margin: 20px auto; /* Centers the container horizontally and adds vertical spacing */
+    max-width: 900px; /* Limits the width for better readability */
+    background: #ffffff; /* Sets a white background color */
+    border-radius: 8px; /* Rounds the corners for a smooth appearance */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a lifted effect */
+}
+
+/* Styles for the Student List header */
+.student-list h2 {
+    font-size: 2rem; /* Sets a large font size for the heading */
+    color: #007bff; /* Sets the heading text color to a blue shade */
+    margin-bottom: 20px; /* Adds space below the heading */
+    text-align: center; /* Centers the heading text */
+    font-weight: bold; /* Makes the text bold for emphasis */
+    text-transform: uppercase; /* Optionally transforms text to uppercase for consistency */
+}
+
+/* Table styles for displaying the student list */
+table {
+    width: 100%; /* Makes the table span the full width of the container */
+    margin-top: 20px; /* Adds space above the table */
+    border-collapse: collapse; /* Removes space between table borders */
+    background: #ffffff; /* Sets the table background to white */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to the table */
+    border-radius: 8px; /* Rounds the corners of the table */
+    overflow: hidden; /* Prevents content overflow on rounded corners */
+}
+
+/* Shared styles for table header and table data cells */
+table th,
+table td {
+    text-align: left; /* Aligns text to the left */
+    padding: 15px; /* Adds internal spacing for better readability */
+    border: 1px solid #dddddd; /* Adds a light gray border around cells */
+}
+
+/* Styles specifically for table headers */
+table th {
+    background-color: #007bff; /* Sets the header background to a blue shade */
+    color: white; /* Sets the header text color to white */
+    font-weight: bold; /* Makes the header text bold */
+}
+
+/* Alternating row background color for better readability */
+table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+/* Hover effect for table rows */
+table tr:hover {
+    background-color: #f1f5ff; /* Highlights rows with a light blue background on hover */
+}
+
+/* Styles for unordered lists inside the table (e.g., courses) */
+ul {
+    margin: 0; /* Removes default margin around the list */
+    padding-left: 20px; /* Adds space to the left for list indentation */
+    list-style-type: disc; /* Displays list items with bullet points */
+}
+
+/* Styles for individual list items */
+li {
+    line-height: 1.6; /* Increases line height for better readability */
+}
+
+/* Styles for the refresh button */
+.refresh-button {
+    margin: 20px auto; /* Centers the button horizontally and adds vertical spacing */
+    padding: 12px 20px; /* Adds internal padding for a consistent button size */
+    background-color: #007bff; /* Sets the button background color to blue */
+    color: white; /* Makes the button text white */
+    border: none; /* Removes any default border */
+    border-radius: 8px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    font-size: 1rem; /* Sets the font size to match other buttons */
+    display: block; /* Centers the button as a block element */
+    width: 100%; /* Makes the button span the full width of its container */
+    max-width: 200px; /* Limits the button's maximum width */
+    text-align: center; /* Centers the text inside the button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a modern look */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the refresh button */
+.refresh-button:hover {
+    background-color: #0056b3; /* Darkens the button background on hover */
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+/* Active state effect for the refresh button */
+.refresh-button:active {
+    transform: scale(1); /* Resets the scale when clicked */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Adds an inset shadow to indicate a click */
+}
