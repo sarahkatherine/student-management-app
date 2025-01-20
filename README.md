@@ -1,6 +1,6 @@
 # Student Management App
 
-This is a student management system built using React, Node.js, and MySQL. It allows users to manage student records including adding, editing, and deleting students and courses.
+A student management system that allows users to add, edit, and delete student records, assign grades, and view student grades. This application features both a backend and a frontend developed with modern technologies.
 
 ## Features:
 - Add, edit, and delete student records
