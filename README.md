@@ -8,15 +8,16 @@ This is a student management system built using React, Node.js, and MySQL. It al
 - View student grades
 
 ## Backend:
-Springboot
-Maven
-Java
-SQLite
+Springboot,
+Maven,
+Java,
+SQLite,
 IntelliJ
 
 ## Frontend
-React
-JavaScript
-CSS
-HTML
+React,
+NodeJS
+JavaScript,
+CSS,
+HTML,
 VS Code
