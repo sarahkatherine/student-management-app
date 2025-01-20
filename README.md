@@ -12,6 +12,8 @@ Springboot,
 Maven,
 Java,
 SQLite,
+CRUD API,
+REST API,
 IntelliJ
 
 ## Frontend
