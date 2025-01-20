@@ -6,6 +6,10 @@ A student management system that allows users to add, edit, and delete student r
 - Add, edit, and delete student records
 - Assign grades to students
 - View student grades
+- Add students
+- Assign courses
+- Search grades
+- View detailed student profiles
 
 ## Backend:
 Springboot,
