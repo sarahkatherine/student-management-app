@@ -12,9 +12,11 @@ Springboot
 Maven
 Java
 SQLite
+IntelliJ
 
 ## Frontend
 React
 JavaScript
 CSS
 HTML
+VS Code
