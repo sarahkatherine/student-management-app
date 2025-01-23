@@ -29,7 +29,7 @@ CSS,
 HTML,
 VS Code
 
-## Understanding the Code
+## Folder Navigation
 - student-app folder contains 2 folders:
 - frontend folder contains front end;
 - student-app folder contains back end
