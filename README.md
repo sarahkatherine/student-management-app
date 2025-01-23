@@ -28,3 +28,9 @@ JavaScript,
 CSS,
 HTML,
 VS Code
+
+## Understanding the Code
+Enter the student-app folder.
+Once arrived,
+frontend folder contains front end
+student-app folder contains back end
