@@ -12,7 +12,7 @@ A student management system that allows users to add, edit, and delete student r
 - View detailed student profiles
 
 ## Backend:
-Springboot,
+Spring Boot,
 Maven,
 Java,
 SQLite,
